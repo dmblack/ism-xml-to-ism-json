@@ -1,0 +1,23 @@
+{
+  "name": "ism-xml-to-ism-json",
+  "version": "1.0.0",
+  "description": "My simple ISM (XML) to ISM (JSON) converter.",
+  "main": "src/index.js",
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha src/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmblack/ism-xml-to-ism-json.git"
+  },
+  "author": "Blackmore, Dustyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmblack/ism-xml-to-ism-json/issues"
+  },
+  "homepage": "https://github.com/dmblack/ism-xml-to-ism-json#readme"
+}
