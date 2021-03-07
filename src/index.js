@@ -1,7 +1,7 @@
-var fs = require('fs'),
-  xml2js = require('xml2js');
+const fs = require('fs');
+const xml2js = require('xml2js');
 
-var parser = new xml2js.Parser();
+const parser = new xml2js.Parser({ explicitArray : false });
 
 fs.readFile(__dirname + '/ISM.xml', function(err, data) {
   parser.parseString(data, function (error, result) {
